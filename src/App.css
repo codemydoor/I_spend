@@ -1,0 +1,287 @@
+.logo{
+  color: white;
+  position: relative;
+  top:6rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 1.6rem;
+  color: tomato;
+}
+body{
+  background-color: rgba(245, 238, 239, 0.849);
+}
+ 
+ .App{
+  min-width: 20rem;
+  color: black;
+  height: min-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  float: right;
+
+} 
+
+.form_Field{
+  background-color: #110d02;
+  height: 88vh;
+  width: 30rem;
+  
+ 
+}
+
+form{
+  padding: 7rem 0rem 0rem 5rem;
+}
+input{
+  display: table-cell;
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0.6rem;
+  outline: none;
+  font-size: 0.9rem;
+}
+button{
+  width: 20.3rem;
+  height: 4rem;
+  background-color: rgba(17, 11, 3, 0.753);
+  color:rgb(253, 252, 252);
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+  border: tomato 0.2rem solid;
+  border-radius: 1rem;
+}
+
+
+
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  body{
+    background-color: rgb(33, 177, 221);
+  }
+
+  .form_Field{
+    background-color: #110d02;
+    height: 30rem;
+    width:100%;
+    
+   
+  }
+
+  .App{
+
+    position: absolute;
+    top: 45rem;
+    float: left;
+    padding: none;
+    margin: none;
+    
+  
+  }  
+  input{
+    display: table-cell;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.6rem;
+    outline: none;
+    font-size: 0.9rem;
+    position: relative;
+    right: 2.6rem;
+  }
+
+  
+  form{
+    padding: 5rem 0rem 0rem 5rem;
+  }
+
+  .logo{
+    color: white;
+    position: relative;
+    top:4rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.6rem;
+    
+  }
+
+
+} 
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+body{
+  background-color: rgb(30, 134, 160);
+}
+.form_Field{
+  background-color: #110d02;
+  height: 35rem;
+  width:100%;
+  
+ 
+}
+
+.App{
+
+  position: absolute;
+  top: 40rem;
+  float: left;
+  padding: none;
+  margin: none;
+  color: white;
+  
+
+}  
+input{
+  display: table-cell;
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0.6rem;
+  outline: none;
+  font-size: 0.9rem;
+  position: relative;
+  right: 2.6rem;
+}
+
+button{
+  width: 78.4%;
+  height: 3rem;
+  background-color: rgb(8, 8, 8);
+  font-size: 1rem;
+  font-family: 'Lobster', cursive;
+  color:white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: absolute;
+  left: 2.9rem;
+  border: none;
+ 
+}
+form{
+  padding: 5rem 0rem 0rem 5rem;
+}
+
+.logo{
+  color: white;
+  position: relative;
+  top:4rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 1.6rem;
+  
+}
+}
+
+
+
+@media only screen
+and (max-width : 320px) {
+body{
+  background-color: rgb(6, 31, 170);
+}
+.form_Field{
+  background-color: #110d02;
+  height: 35rem;
+  width:107vw;
+  
+ 
+}
+
+.App{
+
+  position: absolute;
+  top: 40rem;
+  float: left;
+  padding: none;
+  margin: none;
+  background-color: none;
+  color: white;
+  
+
+}  
+input{
+  display: table-cell;
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0.6rem;
+  outline: none;
+  font-size: 0.9rem;
+  position: relative;
+  right: 2.6rem;
+}
+
+button{
+  width: 84.5%;
+  height: 3rem;
+  font-size: 1rem;
+  font-family: 'Lobster', cursive;
+  color:white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: absolute;
+  left: 2.8rem;
+  border: none;
+ 
+}
+form{
+  padding: 5rem 0rem 0rem 5rem;
+}
+
+.logo{
+  color: white;
+  position: relative;
+  top:4rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 1.9rem;
+
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+body{
+background-color: rgb(24, 109, 112);
+}
+button{
+  width: 40.5%;
+  height: 3rem;
+  background-color:rgb(8, 8, 8);
+  font-size: 1rem;
+  font-family: 'Lobster', cursive;
+  color:white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: absolute;
+  left: 2.8rem;
+  border: 0.2rem solid teal;
+  border-radius: 3rem;
+ 
+}
+
+}
