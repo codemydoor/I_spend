@@ -47,9 +47,6 @@ class UserForm extends Component {
                <span><input type = " text" name ="description" placeholder="Description"value={this.state.description} onChange ={this.handleChange}  /></span><br />
                <span><input placeholder="Date" name ="date" value={this.state.date} onChange={this.handleChange} /></span ><br />
                 <button type="submit">Submit</button>
-    
-             
-          
                </form>
             </div>
         )

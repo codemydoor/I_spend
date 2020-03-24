@@ -32,8 +32,8 @@ class App extends Component {
       <div >
         <UserForm addUser={this.AddNewUser} />
         
-        <div className = "App_Field">
-        <div className ="App" >
+        <div className = "Apps_Field">
+        <div className ="Apps">
            {this.state.users.map((field, index) => {
             return (
             <div >

@@ -13,6 +13,4 @@ export default function ExpediLog(props) {
             </div>
           
           );
-        
-    
 }

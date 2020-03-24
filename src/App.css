@@ -11,7 +11,7 @@ body{
   background-color: rgba(245, 238, 239, 0.849);
 }
  
- .App{
+ .Apps{
   min-width: 20rem;
   color: black;
   height: min-content;
@@ -20,7 +20,7 @@ body{
   float: right;
 
 } 
-.App_Field{
+.Apps_Field{
   position: relative;
   bottom: 44rem;
 }
@@ -78,7 +78,7 @@ and (max-device-width : 480px) {
    
   }
 
-  .App{
+  .Apps{
 
     position: absolute;
     top: 45rem;
@@ -133,7 +133,7 @@ body{
  
 }
 
-.App{
+.Apps{
 
   position: absolute;
   top: 40rem;
@@ -202,7 +202,7 @@ body{
  
 }
 
-.App{
+.Apps{
 
   position: absolute;
   top: 40rem;
