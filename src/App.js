@@ -1,30 +1,15 @@
 import React, { Component } from 'react'
+import {connect} from 'react-redux'
+import { Action } from './store/actions'
 import "./App.css"
 import UserForm from './component/UserForm';
 import ExpediLog from './component/ExpediLog'
 
 class App extends Component {
-  constructor(props) {
-    
-    super(props)
-
-    this.state = {
-      users : [
-     
-        
-       
-      ],
-         
-          
-         
-    };
-    
-  }
+ 
   
   AddNewUser = (newUser) => {
-    this.setState({
-      users: [...this.state.users, newUser]
-    });
+    this.props.addUser(newUser)
   };
 
   render() {
@@ -34,7 +19,7 @@ class App extends Component {
         
         <div className = "Apps_Field">
         <div className ="Apps">
-           {this.state.users.map((field, index) => {
+           {this.props.users.map((field, index) => {
             return (
             <div >
             <ExpediLog key={index } name = {field.username} expenditure={field.expenditure} description={field.description} date={field.date} />
@@ -54,7 +39,13 @@ class App extends Component {
     )
   }
 }
-
-export default App
+const mapStateToProps = (state) =>({ 
+ users: state.users
+   
+})
+const mapDispatchToProps ={ 
+  addUser : Action 
+}
+export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 
